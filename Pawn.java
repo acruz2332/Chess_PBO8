@@ -19,8 +19,5 @@ public class Pawn extends Piece {
         if (newPosisi.colomn == posisi.colomn + 1 && super.isValidPosition(newPosisi)){
             posisi.colomn = posisi.colomn + 1;
         }
-        else{
-            System.out.println("Sudah ada bidak");
-        }
     }
 }
