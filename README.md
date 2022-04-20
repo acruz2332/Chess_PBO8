@@ -26,7 +26,6 @@ package com.mycompany.chess_pbo8;
 public class Piece {
     Position posisi;
     String colour;
-    private int board[][] = new int[8][8];
     
     public Piece(Position posisi, String colour){
         this.posisi = posisi;
